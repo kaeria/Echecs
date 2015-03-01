@@ -11,11 +11,16 @@ ehciquier::echiquier() //initialisation
     echectab=new piece*[8];
     for(int i=0;i<8;i++)
     {
-        piece[i]=new piece[8];
+        echectab[i]=new piece[8];
         {
             for(j=0;j<8;j++)
-            piece[i][j]=piecevide;
+            echectab[i][j]=Piecevide;
         }
+    }
+    for(int i=0;i<8;i++)
+    {
+        piece Pb;
+        Pb.type
     }
 }
 echiquier::~echiquier()
