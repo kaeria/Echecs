@@ -8,13 +8,13 @@ using namespace std;
 ehciquier::echiquier() //initialisation
 {
     dim=8;
-    echiquier=new piece*[8];
+    echectab=new piece*[8];
     for(int i=0;i<8;i++)
     {
         piece[i]=new piece[8];
         {
             for(j=0;j<8;j++)
-            piece[i][j]=piece_vide;
+            piece[i][j]=piecevide;
         }
     }
 }
